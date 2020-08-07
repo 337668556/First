@@ -11,7 +11,8 @@ public class SleepAdvice implements MethodBeforeAdvice, AfterReturningAdvice {
     @Override
     public void before(Method method, Object[] objects, Object o) throws Throwable {
 
-        System.out.println("睡前002");
+
+        System.out.println("睡前002");  System.out.println("睡前002");
       
     }
 
